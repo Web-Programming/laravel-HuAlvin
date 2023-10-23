@@ -11,7 +11,12 @@ class DosenController extends Controller
      */
     public function index()
     {
-        //
+        $data = [
+            ['id' =>1, 'nama' => 'Alvin Hujaya'],
+            ['id' =>2, 'nama' => 'Kevin']
+    ];
+    
+    return $data;
     }
 
     /**
